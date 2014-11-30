@@ -1,19 +1,382 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/******************************/
+/**********************************************/
 body {
-  background: #F6F6F6; }
+  background: #0C6395; }
+
+#region-content {
+  background-color: #F1F1F1; }
+
+.breadcrumb {
+  background: #009CDF;
+  box-shadow: 0 0 27px 2px #007cb1;
+  padding: 1% 2%;
+  color: #F1F1F1; }
+  .breadcrumb a {
+    color: #fff;
+    text-decoration: none; }
+
+#region-branding .branding-data {
+  float: left; }
+
+header {
+  position: relative; }
+  header #zone-menu-wrapper {
+    float: right;
+    margin: auto;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 15%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial; }
+
+#region-branding #block-nice-menus-1 {
+  float: right;
+  margin-top: 151px;
+  margin-top: 101px;
+  margin-top: 82px; }
+  #region-branding #block-nice-menus-1 li {
+    background-color: #4BB700;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#8ADA00), to(#4BB700));
+    background-image: -webkit-linear-gradient(#8ADA00, #4BB700);
+    background-image: -moz-linear-gradient(#8ADA00, #4BB700);
+    background-image: -o-linear-gradient(#8ADA00, #4BB700);
+    background-image: -ms-linear-gradient(#8ADA00, #4BB700);
+    background-image: linear-gradient(#8ADA00, #4BB700);
+    background-repeat: repeat-x;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -o-background-size: 100% 30px;
+    background-size: 100% 30px;
+    border-color: #82D900; }
+
+#block-nice-menus-1 ul.nice-menu a {
+  padding: 1.3em 17px;
+  padding: 0.7em 6px;
+  font-family: Arial;
+  color: #F6F6F6;
+  font-weight: normal;
+  text-decoration: none; }
+#block-nice-menus-1 ul.nice-menu a:hover {
+  color: #19D9FB; }
+#block-nice-menus-1 ul.nice-menu li.first {
+  border-radius: 10px 0 0 0px; }
+
+#block-system-main {
+  padding: 3; }
+
+#block-block-3 {
+  position: absolute; }
+
+div.tabs ul.tabs {
+  float: none;
+  margin: auto;
+  position: relative;
+  width: 92%;
+  padding: 0;
+  margin-top: 2%; }
 
 form {
-  background: none repeat scroll 0 0 #ffd300;
-  box-shadow: 0 0 20px 0 #ffd300;
-  padding: 4%;
-  width: 80%;
-  margin: auto; }
+  background: none repeat scroll 0 0 #F1F1F1;
+  padding: 0;
+  width: 92%;
+  margin: auto;
+  display: table; }
+  form label {
+    color: gray; }
+  form legend .fieldset-legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Arial; }
+  form #edit-account {
+    width: 49%;
+    margin-right: 1%;
+    float: left; }
+  form #edit-locale {
+    width: 49%;
+    margin-right: 1%;
+    float: left; }
+  form #edit-profile-productor {
+    float: left;
+    width: 50%; }
   form .form-item .description {
     display: none; }
   form button, form input[type="reset"], form input[type="submit"], form input[type="button"] {
-    background: gray;
+    /* background: grayscale($amarillo);
     border-radius: none;
-    color: #82D900; }
+    border: 0;
+    text-shadow: none;
+    color: $blanco;
+    border-radius: 2px; */
+    background: none repeat scroll 0 0 skyblue;
+    border: 0 none;
+    border-radius: 2px;
+    color: #030303;
+    font-size: 1.2em;
+    padding: 2% 4%;
+    text-shadow: none; }
+  form button:hover, form input[type="reset"]:hover, form input[type="submit"]:hover, form input[type="button"]:hover {
+    color: #0C6395; }
+
+.front.not-logged-in #page {
+  margin: auto;
+  width: 462px; }
+  .front.not-logged-in #page #block-system-main {
+    display: none; }
+  .front.not-logged-in #page * {
+    width: auto;
+    float: none; }
+  .front.not-logged-in #page h2.block-title {
+    display: none; }
+  .front.not-logged-in #page div, .front.not-logged-in #page form {
+    background: none;
+    float: none; }
+    .front.not-logged-in #page div label, .front.not-logged-in #page form label {
+      color: #fff; }
+    .front.not-logged-in #page div input.form-text, .front.not-logged-in #page form input.form-text {
+      width: 100%; }
+    .front.not-logged-in #page div .item-list, .front.not-logged-in #page form .item-list {
+      display: none; }
+
+#zone-content .block {
+  padding: 2%;
+  width: 96%; }
+
+#region-footer-second {
+  background-color: #0C6395;
+  color: #fff;
+  text-align: center;
+  padding: 8px; }
+
+.block-block a.MobileMenuTrigger {
+  display: none; }
+
+#first-time {
+  display: none; }
+
+#region-footer-second {
+  background: white;
+  background: none repeat scroll 0 0 white;
+  color: #0C6395;
+  padding-left: 3%;
+  padding-right: 4%;
+  vertical-align: middle;
+  width: 91.3%; }
+  #region-footer-second br {
+    display: none; }
+  #region-footer-second p {
+    clear: both;
+    display: block;
+    margin-bottom: 15px; }
+  #region-footer-second img {
+    float: left;
+    vertical-align: middle; }
+
+footer {
+  overflow: hidden; }
+
+.front.not-logged-in #page #block-block-4 {
+  color: white;
+  float: left;
+  font-size: 1.5em;
+  padding: 3% 6%;
+  width: 38%; }
+.front.not-logged-in #page #block-user-login {
+  float: right;
+  width: 45%; }
+  .front.not-logged-in #page #block-user-login form {
+    width: 91%; }
+    .front.not-logged-in #page #block-user-login form .form-item {
+      width: 80%;
+      display: block; }
+      .front.not-logged-in #page #block-user-login form .form-item label {
+        font-weight: normal;
+        font-size: 1.2em; }
+
+#section-footer {
+  background-color: #fff; }
+
+.front.not-logged-in #page {
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%; }
+
+.page-admin-structure-taxonomy-cultivos-add .text-format-wrapper {
+  display: none; }
+.page-admin-structure-taxonomy-cultivos-add .form-item-description-value {
+  display: none; }
+.page-admin-structure-taxonomy-cultivos-add fieldset#edit-description-format {
+  display: none; }
+
+.not-front.logged-in #region-branding {
+  float: left; }
+  .not-front.logged-in #region-branding .branding-data {
+    width: 244px;
+    float: left; }
+    .not-front.logged-in #region-branding .branding-data * {
+      width: 100%; }
+
+.front.logged-in #region-branding {
+  float: left; }
+  .front.logged-in #region-branding .branding-data {
+    width: 244px;
+    float: left; }
+    .front.logged-in #region-branding .branding-data * {
+      width: 100%; }
+
+nav.navigation {
+  display: none; }
+
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+  #block-block-3.block-block {
+    float: left;
+    margin-top: 65px;
+    padding-left: 27px;
+    width: 13%;
+    padding-left: 2%; }
+    #block-block-3.block-block a.MobileMenuTrigger {
+      background: url("../images/burguer.png") repeat scroll 0 0/100% auto transparent;
+      color: transparent;
+      display: block;
+      float: left;
+      font-size: 0;
+      height: 50px;
+      width: 50px;
+      cursor: pointer; }
+
+  #region-branding .region-inner .branding-data {
+    float: right;
+    width: 83%; }
+    #region-branding .region-inner .branding-data img {
+      width: 100%; }
+
+  body {
+    background-color: #1082c4; }
+    body form #edit-actions {
+      clear: both; }
+
+  #block-nice-menus-1 {
+    display: none; }
+
+  /**/
+  .jPanelMenu header.main {
+    background: -moz-linear-gradient(center top, #3f94bf, #246485) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #1b5572;
+    box-shadow: 0 1px 5px rgba(34, 34, 34, 0.5);
+    height: 50px;
+    margin: 0;
+    max-width: none;
+    padding: 0 7.5%;
+    width: 85%;
+    z-index: 10; }
+
+  .jPanelMenu header.main .logo a, .jPanelMenu header.main .menu-trigger {
+    color: #f7f7f7;
+    display: block;
+    line-height: 50px;
+    max-height: 100%;
+    text-shadow: 0 -1px 1px #222; }
+
+  .jPanelMenu header.main .logo {
+    float: none;
+    font-family: "museo-sans","Museo Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 60%; }
+
+  .jPanelMenu header.main .logo a {
+    position: static; }
+
+  .jPanelMenu header.main .logo a:before {
+    display: none !important; }
+
+  .jPanelMenu header.main .menu-trigger {
+    font-size: 1.2em;
+    left: 0;
+    line-height: 57.5px;
+    padding: 0 1.5em;
+    position: absolute;
+    top: 0; }
+
+  .jPanelMenu header.main .menu-trigger:active {
+    text-shadow: 0 -1px 1px #222, 0 0 50px #f7f7f7; }
+
+  .jPanelMenu header.main nav {
+    text-indent: -9999px; }
+
+  .jPanelMenu .content .spec, .jPanelMenu .content h3 {
+    margin-top: 0;
+    padding-top: 4em; }
+
+  .jPanelMenu .content .spec h3 {
+    padding-top: 0; }
+
+  .jPanelMenu .content .jPM-specific {
+    display: block; }
+
+  #jPanelMenu-menu {
+    background: none repeat scroll 0 0 #3b3b3b; }
+
+  #jPanelMenu-menu ul {
+    border-bottom: 1px solid #484848; }
+
+  #jPanelMenu-menu li {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    clear: both; }
+
+  #jPanelMenu-menu li a {
+    background: -moz-linear-gradient(center top, #3e3e3e, #383838) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #2e2e2e;
+    border-top: 1px solid #484848;
+    color: #f7f7f7;
+    display: block;
+    font-family: "museo-sans","Museo Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding: 0.5em 5%;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px #222; }
+
+  #jPanelMenu-menu li a:hover, #jPanelMenu-menu li a:focus {
+    background: -moz-linear-gradient(center top, #484848, #383838) repeat scroll 0 0 transparent; }
+
+  #jPanelMenu-menu li a:active {
+    background: -moz-linear-gradient(center top, #3e3e3e, #2e2e2e) repeat scroll 0 0 transparent;
+    border-top-color: #222;
+    box-shadow: 0 2px 7px #222 inset;
+    padding-bottom: 0.45em;
+    padding-top: 0.55em; }
+
+  .jPanelMenu-panel {
+    box-shadow: 0 0 25px #222; }
+
+  /**/
+  .front.not-logged-in #page {
+    margin: auto;
+    width: 100%; }
+
+  #page {
+    width: 100%; }
+
+  #region-footer-second {
+    width: 89.3%; }
+    #region-footer-second img {
+      clear: both;
+      text-align: center;
+      float: none; }
+
+  form #edit-account {
+    width: 100%;
+    clear: both; }
+
+  fieldset#edit-profile-junta-de-usuarios-de-riego-organ {
+    width: 100%;
+    clear: both; } }
 
 /*# sourceMappingURL=global.css.map */

@@ -1,0 +1,33 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body {
+  background: #F6F6F6; }
+
+.breadcrumb {
+  background: #82D900;
+  padding: 1% 2%; }
+
+form {
+  background: none repeat scroll 0 0 #ffd300;
+  box-shadow: 0 0 20px 0 #ffd300;
+  padding: 4%;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #D1BD00; }
+  form #edit-account {
+    width: 49%;
+    margin-right: 1%; }
+  form #edit-profile-productor {
+    float: left;
+    width: 50%; }
+  form .form-item .description {
+    display: none; }
+  form button, form input[type="reset"], form input[type="submit"], form input[type="button"] {
+    background: gray;
+    border-radius: none;
+    color: #82D900;
+    border: 0;
+    text-shadow: none;
+    color: #ffd300; }
+
+/*# sourceMappingURL=global.css.map */
