@@ -80,6 +80,7 @@ div.tabs ul.tabs {
   margin-top: 2%; }
 
 form {
+<<<<<<< HEAD
   background: none repeat scroll 0 0 #F1F1F1;
   padding: 0;
   width: 92%;
@@ -102,11 +103,20 @@ form {
   form #edit-profile-productor {
     float: left;
     width: 50%; }
+=======
+  background: none repeat scroll 0 0 #ffd300;
+  box-shadow: 0 0 20px 0 #ffd300;
+  padding: 4%;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #D1BD00; }
+>>>>>>> afd628dca4504eee7d9bf0d279c70310af8e5bc7
   form .form-item .description {
     display: none; }
   form button, form input[type="reset"], form input[type="submit"], form input[type="button"] {
     /* background: grayscale($amarillo);
     border-radius: none;
+<<<<<<< HEAD
     border: 0;
     text-shadow: none;
     color: $blanco;
@@ -378,5 +388,11 @@ nav.navigation {
   fieldset#edit-profile-junta-de-usuarios-de-riego-organ {
     width: 100%;
     clear: both; } }
+=======
+    color: #82D900;
+    border: 0;
+    text-shadow: none;
+    color: #ffd300; }
+>>>>>>> afd628dca4504eee7d9bf0d279c70310af8e5bc7
 
 /*# sourceMappingURL=global.css.map */
