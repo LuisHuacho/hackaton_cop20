@@ -5,3 +5,7 @@ sites/*/settings.php
 sites/*/files
 sites/*/private
 /nbproject/private/
+dbmanager/*
+dbmanager
+*.zip
+*.gz
