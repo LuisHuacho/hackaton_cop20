@@ -8,12 +8,16 @@ form {
   box-shadow: 0 0 20px 0 #ffd300;
   padding: 4%;
   width: 80%;
-  margin: auto; }
+  margin: auto;
+  border: 1px solid #D1BD00; }
   form .form-item .description {
     display: none; }
   form button, form input[type="reset"], form input[type="submit"], form input[type="button"] {
     background: gray;
     border-radius: none;
-    color: #82D900; }
+    color: #82D900;
+    border: 0;
+    text-shadow: none;
+    color: #ffd300; }
 
 /*# sourceMappingURL=global.css.map */
